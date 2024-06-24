@@ -1,7 +1,6 @@
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
@@ -19,9 +18,4 @@ public class CheckboxesTest extends BaseTest {
         checkboxTwo.click();
         assertFalse(checkboxTwo.isSelected());
     }
-
-    private void assertTrue(boolean enabled) {
-    }
-
-
 }
