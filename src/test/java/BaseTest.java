@@ -23,5 +23,4 @@ public void  setup() {
     public void close() {
         driver.quit();
     }
-
 }

@@ -14,7 +14,5 @@ public class DropdownTest extends BaseTest{
         Select select = new Select(dropdown);
         select.selectByIndex(1);
         assertTrue(select.getFirstSelectedOption().isSelected());
-
     }
-
 }
