@@ -1,7 +1,6 @@
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
 import static org.testng.Assert.assertEquals;
 
 public class FramesTest extends BaseTest {
@@ -14,4 +13,3 @@ public class FramesTest extends BaseTest {
         driver.switchTo().defaultContent();
     }
 }
-
