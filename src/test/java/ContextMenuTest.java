@@ -15,5 +15,3 @@ public class ContextMenuTest extends BaseTest {
         alert.accept();
     }
 }
-
-
