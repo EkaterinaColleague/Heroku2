@@ -10,6 +10,7 @@ public class InputsTest extends BaseTest{
         driver.get("http://the-internet.herokuapp.com/inputs");
         WebElement element = By.xpath("//input[@type = 'number']").findElement(driver);
         element.sendKeys(ARROW_UP);
-        assertEquals(1, 1);
+        String inputValue = element.getAttribute("value");
+        assertEquals(inputValue, "1");
     }
 }
