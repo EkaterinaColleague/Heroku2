@@ -15,6 +15,3 @@ public class DynamicControlsTest extends BaseTest {
         assertEquals(driver.findElements(By.id("checkbox")).size(), 0);
     }
 }
-
-
-
